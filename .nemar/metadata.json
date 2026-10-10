@@ -1,0 +1,120 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Ghassan Makhoul": {},
+    "Kate Wang": {
+      "orcid": "0009-0000-2913-5708"
+    },
+    "Dario Englot": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.26275/n0bo-jg77",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1093/brain/awaf215",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000464",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000464",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NINDS",
+      "award_number": "R01NS112252"
+    },
+    {
+      "funder_name": "NINDS",
+      "award_number": "R01NS134625"
+    },
+    {
+      "funder_name": "NINDS",
+      "award_number": "F31NS131056"
+    },
+    {
+      "funder_name": "NINDS",
+      "award_number": "F31NS120401"
+    },
+    {
+      "funder_name": "NIGMS",
+      "award_number": "T32GM007347"
+    },
+    {
+      "funder_name": "NIBIB",
+      "award_number": "T32EB021937"
+    },
+    {
+      "funder_name": "NINDS",
+      "award_number": "R01NS108445"
+    },
+    {
+      "funder_name": "NINDS",
+      "award_number": "R01NS110130"
+    }
+  ],
+  "title": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
+  "license": "CC-BY-NC-SA-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "833 GB (1285 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".err",
+    ".jpg",
+    ".json",
+    ".mat",
+    ".md",
+    ".png",
+    ".tsv"
+  ],
+  "description": "A derivative BIDS-iEEG dataset of per-seizure connectivity results computed from stereo-EEG recordings of patients with drug-resistant epilepsy evaluated at Vanderbilt University Medical Center. It provides windowed partial directed coherence and imaginary coherence across six frequency bands for peri-ictal and interictal periods, with seizure onset zone and propagation zone labels. The data accompany a study of how the collapse of interictal suppressive networks permits seizure spread.",
+  "methods_description": "SEEG channels were re-referenced to a bipolar montage and bandpass filtered. Partial directed coherence was computed on 5 s windows from grey-matter channels in six frequency bands (delta through high gamma, up to 150 Hz), using a 1 s stride. For each seizure, 10 min before onset, the ictal period, and 10 min after offset were analyzed, along with an interictal clip.",
+  "keywords": [
+    {
+      "term": "Stereo-EEG"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Drug Resistant Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "partial directed coherence"
+    },
+    {
+      "term": "effective connectivity"
+    }
+  ],
+  "source_hash": "ec955d99b633fc614ac46aa246056c75295944d881bef7c292094e6b3e4aef4d"
+}
