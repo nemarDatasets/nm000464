@@ -1,0 +1,82 @@
+# Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025)
+
+Derivative BIDS-iEEG dataset. It holds no raw SEEG: the files are the authors' per-seizure connectivity results
+(partial directed coherence, PDC, and imaginary coherence) from stereo-EEG of patients with drug-resistant epilepsy
+evaluated at Vanderbilt University Medical Center. Source: Pennsieve Discover dataset 467, version 1, "Vanderbilt BIEN Lab
+Peri-ictal Dynamics Data" (doi:10.26275/n0bo-jg77; Penn CNT; contributors Ghassan Makhoul, Kate Wang, Dario Englot).
+
+Release readme (verbatim): "This dataset contains partial directed coherence (PDC) and imaginary coherence computed per seizure
+for 75 patients with drug-resistant epilepsy evaluated at Vanderbilt University Medical Center."
+
+Associated paper: Makhoul, G. S., Doss, D. J., Johnson, G. W., Withers, C. P., Cavender, A. C., Hidalgo Monroy Lerma, B., Reda, A., Bibro, C. E., Liao, E., Kang, H., Dawant, B. M., Reddy, S. B., Crudele, A. N., Constantinidis, C., Roberson, S. W., Bick, S. K., Morgan, V. L., & Englot, D. J. (2025). Collapse of interictal suppressive networks permits seizure spread. Brain, awaf215. https://doi.org/10.1093/brain/awaf215
+
+## Contents
+
+- 78 subjects = the 78 patient folders of the release (codes Epat##, Spat## and pat##, the authors' pseudonyms).
+  The release readme and the paper state 75 patients; the release has 78 codes. Codes pat11 (patID pat11, 59 node labels) and Epat11 (patID Epat11, 69 node labels) share 18 node labels; pat33 (patID pat33, 76 node labels) and Epat33 (patID Epat33, 106 node labels) share 10 node labels. The release does
+  not state how the 78 codes map onto the 75 patients.
+- 994 connectivity files (`sub-*/ieeg/*_desc-pdc_connectivity.mat`, `*_desc-imcoh_connectivity.mat`), 708 seizure events,
+  each with a JSON sidecar; 288 figure(s) from the release (`*_plot.png`, MATLAB figures; not described in the release).
+- Seizure types over the PDC files (field sz_type): FAS 135, FBTC 96, FIAS 152, Focal, unknown awareness 297, Unknown 28.
+- `seizures.tsv` / `seizures.json`: one row per connectivity file with the file's own fields (seizure type, awareness label,
+  surgery type, SOZ and PZ strings, number of nodes and windows, durations, sampling rate).
+- `participants.tsv`: sex and age are not stated per patient in the release or the paper (paper Table 1 gives cohort values:
+  43 of 75 female, age 34.7 +/- 12.3 years); seizure types, surgery type and SOZ strings come from the files.
+- `sourcedata/pennsieve-467-v1/`: the release readme, changelog, manifest, Pennsieve metadata, banner, the file
+  `files/Epat26/Epat26_26_FAS_imcoh.err` (a MATLAB 7.3 file with the extension .err; not described in the release; same date
+  edit as the .mat files), and `scrub_log.tsv` (release path, BIDS path, release and NEMAR
+  sha256, what changed). `files/.DS_Store` (macOS Finder metadata) was not copied.
+
+## File contents (from the files and the paper)
+
+Each `.mat` file is MATLAB 7.3 (HDF5) with one struct `pdc.seizure`, read with MATLAB, h5py or mat-io. Main fields:
+`PDC_all_windowed` (and `imcoh_all_windowed` in imaginary-coherence files): matrices for every window of the peri-ictal
+recording (MATLAB size bands x windows x nodes x nodes); `PDC_interictal_windowed` / `imcoh_interictal_windowed`: the same for
+an interictal clip (field `interictal_window_dur_sec`, values in the files: 300 (994 files) s; hours before the seizure in
+`interictal_hours_before_seizure`); `PDC_pre`, `PDC_ictal`, `PDC_post`, `PDC_interictal`: per-period matrices (MATLAB size bands x nodes x nodes);
+`pwelch_*` and `rms_*`: spectra and RMS per node and window; `bands` (Hz; values stored in the files: 0-3; 4-7; 8-12; 13-30; 31-80; 81-150 (994 files));
+`bip_labels_used` (bipolar node labels, node order), `region_name` (region label per node, e.g. 'Left-Hippocampus',
+'ctx-lh-insula'), `dist_mat`, `soz_per_seizure`, `soz_summed`, `pz10s_designations`, `resected_contacts`, `window_dur_sec`
+(values in the files: 5 (994 files) s), `PDC_hyperparamaters` (values in the files: ["mvar_order", 10.0, "pdc_sub_epoch_length_sec", 5.0] (994 files)), `fs` (sampling rate; values in
+the files: 512 (573 files), 500 (234 files), 1024 (133 files), 2048 (54 files) Hz),
+`pre_dur_sec`, `ictal_dur_sec`, `post_dur_sec`, `window_middle_state` / `window_end_state`, and the authors' seizure-table
+rows (`raw_tbl_line`, `raw_interictal_tbl_line`). The JSON sidecars list each file's array sizes, node labels and regions.
+Which node axis is the source and which the target is not stated in the release; the code link given in the release readme
+(https://github.com/GhassanMakhoul/Ephys/tree/V2.5.ISH) returned HTTP 404 when checked in October 2026.
+
+Methods (paper, verbatim excerpts): "Each SEEG channel was re-referenced as a bipolar montage. We then filtered SEEG channels
+using filtfilt function in MATLAB ... with a 1–59, 61–119 and 121–159 Hz bandpass with a fifth order Butterworth filter";
+"Using 5 s of time series data from all SEEG channels in grey matter ..., we computed directed connectivity using partial
+directed coherence (PDC) across five canonical frequency bands: delta (1–4 Hz), theta (4–8 Hz), alpha (8–12 Hz), beta
+(12–30 Hz), low gamma (30–80 Hz) and high gamma (80–150 Hz)"; "We used a 1 s stride to generate dynamic connectivity for all
+peri-ictal periods"; "For each seizure, we collected 10 min of recordings prior to seizure onset, the entire ictal period, and
+10 min after seizure offset." Imaginary coherence is named in the release readme only.
+
+## Changes made for NEMAR
+
+Files were renamed into BIDS subject folders (mapping in `seizures.tsv` and `scrub_log.tsv`). Absolute dates inside the files
+were set to day 01, keeping year, month and time of day: the MAT text header creation date, date strings and EDF file names in
+the authors' seizure-table rows (for example MM:DD:YYYY and <code>_MMDDYYYY_ in EDF names), MATLAB datetime values (seizure
+onset/offset, awareness testing, interictal start/stop), and PNG text/time chunks. Bytes were patched in place; a full byte
+comparison with each release file confirmed that nothing else changed (counts in `scrub_log.tsv`). Durations and window
+counts were not changed; intervals computed from the edited absolute date-times are only valid within the same day.
+No other values were changed. The participant key is not kept (key status: destroyed); the release codes are kept as subject labels.
+
+## Related NEMAR dataset
+
+Same lab: nm000410 (Pennsieve 492, resting-state SEEG, Sundrani et al. 2025), which uses the same code scheme (Epat##,
+Spat##, pat##). Neither release states whether equal codes refer to the same patient.
+
+## Ethics (paper, verbatim)
+
+"This study was approved by Vanderbilt’s Institutional Review Board, and all patients provided informed consent."
+
+## Funding (paper, verbatim)
+
+"This work was supported by the following funding sources: NINDS R01NS112252, R01NS134625, F31NS131056 and F31NS120401, NIGMS T32GM007347, NIBIB T32EB021937, NINDS R01NS108445 and R01NS110130."
+
+## Licence
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC-BY-NC-SA-4.0). Pennsieve licence field: "Creative Commons
+Attribution - NonCommercial-ShareAlike"; version 4.0 from the DataCite record of doi:10.26275/n0bo-jg77 (rights: "Creative Commons
+Attribution Non Commercial Share Alike 4.0 International").

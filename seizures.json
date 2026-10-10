@@ -1,0 +1,59 @@
+{
+ "participant_id": {
+  "Description": "BIDS subject (release patient code)"
+ },
+ "seizure_event": {
+  "Description": "seizure event id from the file name (release eventID)"
+ },
+ "metric": {
+  "Description": "PDC or imaginary coherence (file name PDC / imcoh)"
+ },
+ "seizure_type": {
+  "Description": "field sz_type of the file (FAS, FIAS, FBTC, 'Focal, unknown awareness', ...)"
+ },
+ "awareness_label": {
+  "Description": "field awareness_label as written by the authors"
+ },
+ "surgery_type": {
+  "Description": "field surgery_type as written by the authors"
+ },
+ "soz_string": {
+  "Description": "field raw_soz_string (authors' SOZ contacts for this seizure)"
+ },
+ "pz_string": {
+  "Description": "field raw_pz_string (authors' propagation-zone contacts)"
+ },
+ "n_nodes": {
+  "Description": "number of bipolar nodes (length of bip_labels_used)"
+ },
+ "n_windows_periictal": {
+  "Description": "windows along the window axis of *_all_windowed"
+ },
+ "n_windows_interictal": {
+  "Description": "windows along the window axis of *_interictal_windowed"
+ },
+ "pre_dur_sec": {
+  "Description": "field pre_dur_sec (s)"
+ },
+ "ictal_dur_sec": {
+  "Description": "field ictal_dur_sec (s)"
+ },
+ "post_dur_sec": {
+  "Description": "field post_dur_sec (s)"
+ },
+ "all_dur_sec": {
+  "Description": "field all_dur_sec (s)"
+ },
+ "interictal_hours_before_seizure": {
+  "Description": "field interictal_hours_before_seizure (h)"
+ },
+ "sampling_frequency": {
+  "Description": "field fs (Hz)"
+ },
+ "filename": {
+  "Description": "file in this dataset"
+ },
+ "source_file": {
+  "Description": "file path in Pennsieve 467 v1"
+ }
+}

@@ -1,0 +1,6 @@
+sourcedata/
+seizures.tsv
+seizures.json
+*_connectivity.mat
+*_connectivity.json
+*_plot.png

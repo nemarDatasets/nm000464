@@ -1,0 +1,79 @@
+participant_id	sex	age	n_seizure_events	seizure_types	surgery_type	soz_strings	n_nodes
+sub-Epat02	n/a	n/a	9	FBTC:5;FIAS:4	R SAH	RH_1-2 | RH_1-3 | RH_2-3	69
+sub-Epat03	n/a	n/a	13	FAS:1;FBTC:3;FIAS:2;Focal, unknown awareness:5;Unknown:2	L SAH	A_1-3;H_1-4 | H_1-3 | H_1-3;A_1-3 | H_1-3;A_1-4 | H_1-3;A_1-5 | H_1-4;A_1-1	43
+sub-Epat04	n/a	n/a	10	FAS:6;FBTC:1;FIAS:3	unknown	LH_1-2;LPH_1-4 | RH_1-2 | RH_1-2;RA_1-4	63
+sub-Epat05	n/a	n/a	5	FBTC:2;Focal, unknown awareness:3	L SAH	LA_1-2;LH_3-4 | LH_3-3 | LH_3-3;LA_1-1	51
+sub-Epat06	n/a	n/a	3	FBTC:1;FIAS:1;Focal, unknown awareness:1	R SAH	AH_2-4	38
+sub-Epat08	n/a	n/a	21	FAS:9;FBTC:1;FIAS:2;Focal, unknown awareness:7;Unknown:2	unknown	LH_1-2;LA_1-2 | LH_1-2;LA_1-3 | LH_1-3;LA_1-2 | LH_1-3;LA_1-3 | RH_1-3;RPT_1-3 | ROF_8-9	42
+sub-Epat09	n/a	n/a	9	FAS:1;FBTC:1;FIAS:3;Focal, unknown awareness:4	R ATL	RAmy_1-2 | RAmy_1-3 | RAmy_1-3;RH_1-2 | RH_1-3	65
+sub-Epat10	n/a	n/a	17	FAS:3;Focal, unknown awareness:14	resection of frontal lobe EZ	AFI_10-10 | AFI_8-10 | AFI_8-9 | AFI_9-10	52
+sub-Epat11	n/a	n/a	4	FBTC:4	R SAH	RH_1-3 | RH_2-3 | RH_2-3;RPF_1-3	69
+sub-Epat13	n/a	n/a	9	FAS:2;FIAS:4;Focal, unknown awareness:3	R SAH	LA_1-4 | LA_2-4 | RAH_3-4 | RPH_2-4 | RPH_3-4 | RPH_3-4;LA_2-4	100
+sub-Epat14	n/a	n/a	9	FBTC:1;FIAS:6;Focal, unknown awareness:2	resection of cavernous malformation	RAO_1-1 | RPOF_3-6	124
+sub-Epat15	n/a	n/a	9	FAS:8;Focal, unknown awareness:1	L TL	AOBL_1-4 | AOBL_2-3;H_2-3 | H_1-1 | H_1-3	70
+sub-Epat17	n/a	n/a	11	FBTC:2;FIAS:2;Focal, unknown awareness:2;Unknown:5	L SAH	LAH_4-4;LPH_1-4;LA_1-1 | LPH_1-6;LAH_3-4;LA_1-1 | LPH_3-3;LAH_3-3;LA_1-1 | Unknown	113
+sub-Epat18	n/a	n/a	3	FBTC:1;Focal, unknown awareness:2	unknown	LAH_1-1;LAH_3-4;LPH_1-2;LPH_5-5 | LAH_1-1;LAH_3-4;LPH_2-2;LPH_4-5 | LAH_1-5;LPH_1-5	96
+sub-Epat19	n/a	n/a	5	FAS:3;Focal, unknown awareness:2	unknown	LAMT_3-6;LPMT_4-4 | LAMT_5-5;LPMT_4-4 | LPMT_3-5;LAMT_4-6	71
+sub-Epat20	n/a	n/a	6	FAS:1;FBTC:3;FIAS:1;Focal, unknown awareness:1	other	FP1_1-4;AIO_1-9;MIO_4-10;PIO_6-10 | MIO_8-10;MSO_9-10;PIO_8-10;AI_6-14 | MIO_8-10;MSO_9-10;PIO_8-10;H_1-6 | MI_2-5;MIO_8-9;PIO_6-8	84
+sub-Epat21	n/a	n/a	8	FAS:1;FIAS:6;Unknown:1	R SAH	RAHIP_1-5;RPHIP_1-5 | RMTF_6-9 | RMTF_6-9;RAH_4-5;RPH_4-5 | RMTF_6-9;RATF_6-8 | RMTF_7-8;RATF_9-9 | RMTF_8-9;RATF_6-9 | Unknown	94
+sub-Epat23	n/a	n/a	1	FAS:1	unknown	Unknown	105
+sub-Epat24	n/a	n/a	6	FAS:3;FBTC:1;Focal, unknown awareness:2	unknown	AH_1-2 | AH_1-4;PH_1-4 | AH_1-6 | A_1-2;AH_1-3;PH_1-5 | PH_1-5;AH_1-5	117
+sub-Epat25	n/a	n/a	8	FAS:1;FIAS:4;Focal, unknown awareness:3	unknown	AH_1-5;PH_1-5 | AH_1-5;PH_1-6 | AH_1-5;PH_2-6 | AH_1-6;PH_1-5 | AH_1-6;PH_1-6 | PH_1-5;AH_1-4 | PH_2-5;AH_2-4	72
+sub-Epat26	n/a	n/a	34	FAS:18;FIAS:5;Focal, unknown awareness:11	unknown	LAH_1-2;LAM_1-2;LTP_1-2;LIT_1-2 | LAM_1-2;LAH_1-2;LTP_1-2;LIT_1-2 | LAM_1-2;LP_1-2;LAH_1-2;LIT_1-2 | LAM_1-4;LP_2-4;LAH_1-4 | LIT_1-3;LAH_1-4 | LIT_1-4;LAH_1-2;LAM_1-2 | LIT_1-4;LAH_1-4;LP_1-2;LAM_1-2 | LIT_2-4;LAH_1-2;LP_2-3 | LP_1-2;LAM_1-2 | LTP_1-2 | LTP_1-2;LAM_1-2 | LTP_1-2;LAM_1-2;LAH_1-4;LIT_1-4 | RAM_1-2 | RH_1-4 | RH_1-4;RAM_1-2 | RH_2-3 | RH_2-4	103
+sub-Epat27	n/a	n/a	17	FAS:5;FIAS:3;Focal, unknown awareness:8;Unknown:1	unknown	LAH_1-5;LPH_1-6;LA_1-5;LTP_1-8 | RAH_1-3 | RAH_1-4;RPH_1-6	95
+sub-Epat28	n/a	n/a	15	FIAS:12;Focal, unknown awareness:3	R ATL	RAH_1-3 | RAH_1-4 | RAH_1-4;RPT_1-4 | RAH_1-5	113
+sub-Epat30	n/a	n/a	3	FBTC:3	unknown	RPI_1-7;RPV_1-12 | RPI_4-7 | RPI_4-7;RAI_1-5	90
+sub-Epat31	n/a	n/a	9	FBTC:7;FIAS:1;Unknown:1	R ATL	AMY_1-5;AH_1-4;PH_1-4 | AMY_1-5;AH_1-6;PH_1-5 | PH_1-4;AH_1-4 | TP_1-4;AMY_1-4;AH_1-4;PH_1-4	58
+sub-Epat33	n/a	n/a	1	FBTC:1	unknown	LPT_2-3;LH_3-4;LA_2-2	106
+sub-Epat34	n/a	n/a	17	FAS:1;FIAS:4;Focal, unknown awareness:12	unknown	LA_1-3 | LA_1-4 | LA_1-4;LH_1-4 | LA_1-4;LH_1-4;LPT_1-4 | LA_1-4;LH_1-5 | LA_1-6;LH_1-6 | LH_1-3;LA_1-4 | Unknown	108
+sub-Epat35	n/a	n/a	16	FAS:1;FBTC:1;FIAS:12;Unknown:2	R SAH	RH_1-5;RIT_1-5 | RH_1-5;RIT_1-5;RP_1-4 | RH_1-5;RP_1-4;RIT_1-5 | Unknown	77
+sub-Epat37	n/a	n/a	20	FAS:4;FBTC:1;FIAS:5;Focal, unknown awareness:10	unknown	LMI_1-3;LTP_1-2 | LTP_1-3;LMI_1-3 | RAI_1-3;RTP_1-3 | RAI_1-3;RTP_1-3;RAHJ_1-3;RH_1-4 | RH_1-4;RAHJ_1-2;RTP_1-3;RAI_1-3 | RTP_1-3;RAI_1-3;RAHJ_1-1	124
+sub-Epat38	n/a	n/a	6	FIAS:4;Unknown:2	L SAH	LAMY_1-5;LH_1-3 | LH_1-2;LAMY_2-4 | LTP_1-4;LAMY_1-4;LH_1-5;LP_1-6;LIT_1-3 | LTP_1-5;LAMY_1-5;LH_1-6;LP_1-5;LIT_1-3 | LTP_1-6;LAMY_1-6;LH_1-5;LP_1-5;LIT_1-3	109
+sub-Epat39	n/a	n/a	4	FBTC:3;Focal, unknown awareness:1	L ATL	LAH_2-3;LPH_1-3 | LAH_2-4;LPH_1-4 | Unknown	75
+sub-Epat41	n/a	n/a	8	FAS:4;Focal, unknown awareness:3;Unknown:1	unknown	LAH_1-4;LPH_1-4;LPT_1-4;LP_1-4;LTP_1-4;LOF_8-14 | LAH_1-4;LPH_1-4;LP_3-4 | LAH_1-4;LPH_1-4;LP_3-4;LPT_1-4;LAI_1-5 | LP_1-5;LAH_1-4;LPH_1-4;LPT_1-4 | Unknown	95
+sub-Epat43	n/a	n/a	10	FIAS:1;Focal, unknown awareness:9	unknown	OF_1-3;OF_8-8;OF_10-12;IFG_1-3;MI_1-4 | OF_2-2;IFG_1-3;MI_1-4;PH_12-14;AH_10-13;A_9-12;E_3-3 | OF_7-10 | OF_7-11 | OF_7-9 | PH_2-4;AH_8-13;A_9-13;E_1-9;OF_1-12;MFG_7-10	89
+sub-Spat02	n/a	n/a	2	Focal, unknown awareness:2	unknown	RH_1-2 | RH_1-2;RPH_5-5	53
+sub-Spat03	n/a	n/a	3	FBTC:1;Focal, unknown awareness:2	unknown	LM_2-5;LPS1_1-6 | LM_2-5;LPS2_1-5;LPS3_5-5;LPS1_1-5;LM_2-5	58
+sub-Spat05	n/a	n/a	8	FAS:4;FIAS:3;Focal, unknown awareness:1	redo R TL	RH_1-2 | RH_1-3 | RH_7-10 | RH_7-7 | RH_7-9	58
+sub-Spat06	n/a	n/a	4	FIAS:1;Focal, unknown awareness:3	unknown	LAH_1-3;LPH_1-3 | LAH_1-4;LPH_1-2 | RI_1-2;ROF_1-2;RA_1-2;RAH_2-4;RPH_3-3 | RI_1-2;ROF_1-4;RA_1-2;RAH_2-4;RPH_3-3	76
+sub-Spat07	n/a	n/a	4	FBTC:2;FIAS:1;Focal, unknown awareness:1	unknown	RAH_1-2 | RAH_1-3 | RAH_1-5;RPH_1-2 | RAH_1-7;RPH_1-3	66
+sub-Spat08	n/a	n/a	17	FAS:4;FIAS:4;Focal, unknown awareness:9	unknown	LH_1-3 | LH_1-3;LIP_6-8;LSPT_6-8;LIO_1-4;LSO_2-4 | LIPT_3-6;LP_7-9 | LIPT_6-8;LSPT_6-8;LP_5-7;LIO_2-4;LSO_4-5 | LIPT_6-8;LSPT_6-8;LP_6-8 | LIPT_6-8;LSPT_6-8;LP_7-9 | LP_8-10;LIO_2-3;LSPT_1-2;LIPT_6-7 | LSO_1-1;LSO_5-6;LIO_1-3 | LSO_5-7 | LSO_5-7;LIO_1-4 | LSPT_6-8;LIO_1-3;LP_8-9;LIPT_6-8;LIO_1-3;LSO_4-6 | LS_1-3 | L_8-10;LPT_5-8;LIPT_5-8 | RH_1-3	52
+sub-Spat09	n/a	n/a	9	FAS:2;FBTC:2;FIAS:1;Focal, unknown awareness:3;Unknown:1	L SAH	LH_1-3 | LH_2-2 | RH_3-4 | Unknown	60
+sub-Spat10	n/a	n/a	8	Focal, unknown awareness:6;Unknown:2	R frontal lobe resection	RFP_2-4;RF_1-2;RFA_3-4 | RF_1-2;RFP_2-3 | RPF_2-4	46
+sub-Spat11	n/a	n/a	2	FBTC:2	unknown	AAT_4-6;HPT_8-9 | AI_7-7;PO_6-6;AC_7-7	59
+sub-Spat12	n/a	n/a	1	FIAS:1	L TL	LH_1-4	26
+sub-Spat13	n/a	n/a	7	FIAS:1;Focal, unknown awareness:6	unknown	LIL_1-2	42
+sub-Spat14	n/a	n/a	18	FBTC:3;Focal, unknown awareness:15	unknown	LOP_3-4 | LOP_6-7;LLF_3-4;RLF_8-8 | Unknown	120
+sub-Spat18	n/a	n/a	9	FBTC:8;Focal, unknown awareness:1	unknown	LHS_9-10;LPF_2-4;LTA_8-8 | LPF_2-3;LAF_2-3;LH_9-12;LLF_2-4 | LPI_1-3;LAC_3-6 | LPI_2-4 | LPI_2-4;LHS_9-10;LPF_10-12;LAC_2-5 | LPI_2-4;LHS_9-10;LPF_10-12;LAC_3-5 | LPI_2-4;LPF_2-4 | LTA_8-8;LHS_9-10;LPI_2-3	141
+sub-Spat19	n/a	n/a	13	FAS:4;FBTC:3;Focal, unknown awareness:5;Unknown:1	R parietal resection	FLR_8-12;AOBL_1-3;APar_1-3;S_2-4;M_2-3 | FLR_9-12 | LGOBL_10-11 | LGOBL_5-6 | LGOBL_5-7;M_2-3 | LGOBL_6-11 | LGOBL_6-8 | LGOBL_7-11;AOBL_1-2 | LGOBL_8-11 | MOBL_1-7 | M_2-3 | M_2-3;S_2-3	83
+sub-Spat20	n/a	n/a	8	FAS:3;FBTC:1;FIAS:3;Focal, unknown awareness:1	unknown	LH_1-1;LH_10-11 | LH_1-7;LOF_5-10;LH_9-14 | LH_8-11 | RH_2-6;RA_2-5 | RH_4-6 | RH_5-7	94
+sub-Spat22	n/a	n/a	3	FAS:1;FBTC:1;Focal, unknown awareness:1	unknown	AO_1-3;OF_4-5 | IO_1-2	87
+sub-Spat23	n/a	n/a	10	FAS:1;FBTC:3;Focal, unknown awareness:5;Unknown:1	unknown	PH1_3-5;PH2_3-6;PH2_10-10 | PH2_5-6 | Unknown	126
+sub-Spat24	n/a	n/a	7	FIAS:2;Focal, unknown awareness:5	unknown	L2H_2-2;LAH_3-3;LPH_3-3 | R2H_1-11;R1H_7-11;RAH_7-9;RPH_5-9;L1H_1-10;L2H_1-6 | R2H_2-2;R2H_9-10;L1H_8-10 | R2H_2-5;R2H_9-11;RAH_3-4;RAH_7-9;RPH_2-2;RPH_5-9;RA_4-8;L2H_1-3 | R2H_3-3;RAH_2-3;RPH_2-2;L2H_1-2;LAH_8-9 | R2H_3-4;R2H_9-10 | RAH_2-4;RA_3-5;RPH_2-2	68
+sub-Spat26	n/a	n/a	2	FBTC:2	unknown	LAI_1-7 | LATP_1-7;1LPT_4-5;2LPT_4-5	126
+sub-Spat27	n/a	n/a	7	FBTC:2;FIAS:3;Focal, unknown awareness:2	unknown	AH_1-4;H_3-6;PT_1-4 | PT_1-4;H_3-6;AH_1-4	90
+sub-Spat28	n/a	n/a	3	FBTC:1;FIAS:2	unknown	LAH_8-9 | LAH_9-10;LA_8-9	55
+sub-Spat29	n/a	n/a	8	FIAS:1;Focal, unknown awareness:7	L ATL	H_1-4 | SP_3-4;IP_6-7 | Unknown	90
+sub-Spat30	n/a	n/a	15	FBTC:3;FIAS:9;Focal, unknown awareness:3	unknown	LH_10-14;LIT_9-13 | LIT_3-5;LI_6-7 | LIT_4-5 | LI_1-6 | LI_5-6 | LI_5-7;LF_12-12 | LI_6-7 | LP_2-3;LIT_4-5 | LP_3-4;LIT_4-5	112
+sub-Spat31	n/a	n/a	11	FAS:1;FBTC:4;FIAS:3;Focal, unknown awareness:3	unknown	LAC_1-3 | LAH_1-4;LA_1-3;LTP_1-4 | LA_1-3 | LA_2-3;LI_4-6 | LIT_1-2;LI_4-6 | RAH_1-3 | RAH_1-4 | RA_1-4	67
+sub-Spat32	n/a	n/a	6	FBTC:2;FIAS:1;Focal, unknown awareness:3	R insula resection	Aobl_3-6;AI_9-12 | Aobl_3-7;AI_11-13 | Aobl_3-7;AI_11-14 | Mobl_1-2;Pobl_8-9 | SPins_1-2	118
+sub-Spat33	n/a	n/a	4	FBTC:4	L SAH	H_1-4 | OF_4-12;AF_8-11;Ains_2-7 | OF_6-13;Ains_1-6 | OF_7-10	136
+sub-Spat34	n/a	n/a	1	Focal, unknown awareness:1	unknown	AE_3-6	86
+sub-Spat36	n/a	n/a	5	FAS:1;FIAS:2;Unknown:2	R ATL	RAH_1-4 | RAH_1-4;RPH_1-4 | RPH_1-4	73
+sub-Spat37	n/a	n/a	3	FBTC:1;FIAS:2	unknown	RA_1-4	111
+sub-Spat39	n/a	n/a	2	FAS:2	unknown	PR_1-5;H_1-3;ILT_1-5	73
+sub-Spat40	n/a	n/a	1	FBTC:1	unknown	LAH_1-4	109
+sub-Spat41	n/a	n/a	14	FAS:8;FBTC:1;FIAS:2;Focal, unknown awareness:3	unknown	H_1-5;IT_3-6;AMY_1-3 | H_2-4;IT_4-5 | H_2-4;IT_4-5;P_1-4 | H_2-4;IT_4-5;P_1-4;TP_1-3 | H_2-4;IT_4-5;P_1-4;TP_1-4 | H_2-4;IT_4-5;P_1-4;TP_2-4 | H_2-4;IT_4-5;TP_1-2 | IT_2-5;H_1-5;TP_1-2 | IT_3-6 | IT_3-6;H_1-5;AMY_1-3 | IT_3-6;H_1-5;TP_1-2;AMY_1-3;P_1-2 | IT_3-6;H_1-5;TP_1-2;P_1-2 | IT_3-6;H_2-5	92
+sub-Spat42	n/a	n/a	9	FAS:9	unknown	RAM_11-13;RPH_10-12;RBT_10-12 | RBT_1-12;RAM_10-13;RPH_9-10;RAG_13-16;RAH_11-13 | RBT_10-12 | RBT_9-12;RPH_9-12 | RPI_3-5 | rbt_11-11;ram_11-12;rph_10-11;rah_12-14;rag_14-14 | rph_10-11;rah_11-13;rbt_11-11 | rph_10-12;rbt_11-11;rag_12-16	74
+sub-Spat44	n/a	n/a	11	FBTC:3;FIAS:1;Focal, unknown awareness:7	unknown	LBTa_1-2;LTIa_5-6 | LTIa_4-6 | LTIa_4-6;LBTa_1-2 | LTIa_4-6;LIp_6-9;LPH_7-9 | LTIa_4-6;LTIp_4-8 | LTIa_4-6;LTIp_5-7 | LTIa_5-6;LTIp_7-10 | LTIp_4-10;LTO1_13-14;LPH_7-12 | LTIp_5-10;LTP_4-8;LTO1_13-14;LPH_7-12 | LTIp_7-10;LTIa_5-6 | LTO1_12-14;LBTp_8-12;LTP_3-4;LBTa_1-2	134
+sub-Spat45	n/a	n/a	11	FAS:4;Focal, unknown awareness:7	unknown	ANG_11-15 | ANG_11-15;ASP_11-14;Psins_4-4;Psins_9-9 | ANG_11-16 | ANG_12-15 | ANG_12-15;SP_9-9;SP_11-11;ASP_11-13 | ASP_11-15 | M_9-12;ASP_8-11;SP_9-13;ANG_11-15;Pins_5-9 | PP_8-8;PP_11-11;ANG_11-15;SP_11-14;AIP_10-13;Pins_5-5;Pins_8-8;Psins_3-3;Psins_5-6;Psins_9-9 | Unknown	133
+sub-Spat46	n/a	n/a	20	FAS:2;FIAS:6;Focal, unknown awareness:12	unknown	RAH_4-5;RIT_1-3;RAC_10-11;RMFG_7-8;RAOI_2-6 | RMOI_1-2 | RMOI_1-2;ROF_12-14 | RMOI_1-3 | RMOI_2-2 | RTP_2-8;RAMY_2-3;RAH_3-4;RAH_10-11;RIT_3-4;RIT_10-12;RFP_1-6;ROF_11-12;RAOI_1-3	110
+sub-Spat47	n/a	n/a	13	FAS:1;FIAS:3;Focal, unknown awareness:9	unknown	LPT_1-4 | LPT_1-5 | LPT_2-6 | LPT_3-4 | RH_1-6 | RH_2-8 | RH_3-6	98
+sub-Spat48	n/a	n/a	26	Focal, unknown awareness:24;Unknown:2	unknown	SMA_2-2 | SMA_2-2;MM_3-3 | SMA_2-2;MM_3-3;MM_12-12;LPM_7-7;LM_12-12;MP_6-7;LP_8-8 | SMA_2-2;MP_6-8;LPM_5-8;LP_8-10;MM_6-12;LM_11-14 | SMA_2-2;SMA_4-5;MM_3-3 | SMA_5-5;MC_2-2	111
+sub-Spat49	n/a	n/a	3	FAS:2;Focal, unknown awareness:1	unknown	LPT_2-4 | LTP_2-3 | LTP_2-4;LEN_5-5	70
+sub-Spat50	n/a	n/a	40	FIAS:7;Focal, unknown awareness:33	unknown	AIO_2-3 | AIO_2-5 | AIO_2-5;ACIN_2-3 | AIO_2-5;ACIN_3-3 | Unknown	103
+sub-Spat51	n/a	n/a	5	FAS:1;FIAS:2;Unknown:2	unknown	LPH_1-1;LAH_1-5;LEC_1-5 | LTP_1-2;LTP_4-5;LTP_8-10;LEC_1-6;LAH_1-5;LPH_1-5 | LTP_1-4;LEC_2-4;LAM_1-2;LAH_2-3;LPH_2-3 | RAM_1-4;RAH_1-4 | RAM_1-5	93
+sub-Spat52	n/a	n/a	10	FAS:1;FBTC:2;FIAS:3;Focal, unknown awareness:4	unknown	LI_4-5 | LTF_1-4 | LTT_1-2 | LTT_1-2;LTT_5-6;LTT_8-9 | LTT_9-10	100
+sub-Spat53	n/a	n/a	2	FBTC:2	unknown	TPE_1-1	85
+sub-pat11	n/a	n/a	13	FAS:7;FIAS:3;Focal, unknown awareness:3	unknown	LH_1-3 | LH_1-4 | LH_2-4 | ROF_3-5 | RSTG_1-3 | RSTG_1-5;RA_5-8	59
+sub-pat33	n/a	n/a	4	FAS:4	unknown	RAO_2-4;RAH_2-2;RPH_2-3 | RAO_3-3 | RPH_2-4;RAH_2-4;RAO_2-3;RTP_1-3 | RPH_3-3	76

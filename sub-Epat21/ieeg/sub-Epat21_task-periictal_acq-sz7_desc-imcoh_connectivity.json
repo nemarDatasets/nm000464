@@ -1,0 +1,900 @@
+{
+ "Description": "Per-seizure connectivity file from Pennsieve Discover dataset 467 v1 (Makhoul et al. 2025, Brain), metric imaginary coherence (file name: imcoh). MATLAB 7.3 (HDF5) file holding one struct pdc.seizure; field names and values are the authors'. Only change from the release file: absolute dates (MAT header creation date, date strings, MATLAB datetime values) have their day set to 01 (year, month and time of day kept); see sourcedata/pennsieve-467-v1/scrub_log.tsv.",
+ "SourceFile": "doi:10.26275/n0bo-jg77 files/Epat21/Epat21_7_FAS_imcoh.mat",
+ "SourceFileSHA256": "f86c818aa2c871b4b52ac5726719060d90a16518bd08d5456b682bfdb76eab5d",
+ "Metric": "imaginary coherence",
+ "SeizureEvent": "7",
+ "SeizureTypeFromFileName": "FAS",
+ "ReleaseFields": {
+  "patID": "Epat21",
+  "eventID": "7",
+  "sz_type": "FAS",
+  "awareness_label": "Testing performed:Aware",
+  "surgery_type": "R SAH",
+  "raw_soz_string": "RMTF_7-8;RATF_9-9",
+  "raw_pz_string": "RTT_4-5;RPPH_8-14;RAHIP_1-4;RPHIP_1-4;RAMYG_3-4;LAMYG_8-8;LMTF_7-7",
+  "fs": 2048.0,
+  "interictal_fs": 2048.0,
+  "window_dur_sec": 5.0,
+  "interictal_window_dur_sec": 300.0,
+  "interictal_window_stride_sec": 1.0,
+  "pre_dur_sec": 600.0,
+  "ictal_dur_sec": 78.0,
+  "post_dur_sec": 600.0,
+  "all_dur_sec": 1278.0,
+  "interictal_hours_before_seizure": 4.083333333333333,
+  "missing_bip_flag": 0.0,
+  "bips_not_found": [],
+  "PDC_hyperparamaters": [
+   "mvar_order",
+   10.0,
+   "pdc_sub_epoch_length_sec",
+   5.0
+  ],
+  "bands": [
+   0.0,
+   3.0,
+   4.0,
+   7.0,
+   8.0,
+   12.0,
+   13.0,
+   30.0,
+   31.0,
+   80.0,
+   81.0,
+   150.0
+  ]
+ },
+ "FrequencyBandsHz": [
+  [
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   7.0
+  ],
+  [
+   8.0,
+   12.0
+  ],
+  [
+   13.0,
+   30.0
+  ],
+  [
+   31.0,
+   80.0
+  ],
+  [
+   81.0,
+   150.0
+  ]
+ ],
+ "NumberOfNodes": 94,
+ "NumberOfWindowsPeriIctal": 1273,
+ "NumberOfWindowsInterictal": 295,
+ "NodeLabels": [
+  "LTT4LTT5",
+  "LTT5LTT6",
+  "LTT6LTT7",
+  "LTT7LTT8",
+  "LTT8LTT9",
+  "LTT9LTT10",
+  "LATF1LATF2",
+  "LATF2LATF3",
+  "LATF4LATF5",
+  "LATF5LATF6",
+  "LATF7LATF8",
+  "LATF8LATF9",
+  "LATF9LATF10",
+  "LMTF1LMTF2",
+  "LMTF2LMTF3",
+  "LMTF4LMTF5",
+  "LMTF6LMTF7",
+  "LMTF7LMTF8",
+  "LMTF8LMTF9",
+  "LMTF9LMTF10",
+  "LAMYG1LAMYG2",
+  "LAMYG2LAMYG3",
+  "LAMYG3LAMYG4",
+  "LAMYG4LAMYG5",
+  "LAMYG5LAMYG6",
+  "LAMYG7LAMYG8",
+  "LAMYG8LAMYG9",
+  "LAMYG9LAMYG10",
+  "LAMYG11LAMYG12",
+  "LAMYG12LAMYG13",
+  "LAMYG13LAMYG14",
+  "LSTGH1LSTGH2",
+  "LSTGH2LSTGH3",
+  "LSTGH3LSTGH4",
+  "LSTGH4LSTGH5",
+  "LSTGH7LSTGH8",
+  "LSTGH8LSTGH9",
+  "LSTGH10LSTGH11",
+  "LSTGH11LSTGH12",
+  "LSTGH12LSTGH13",
+  "RTT1RTT2",
+  "RTT2RTT3",
+  "RTT7RTT8",
+  "RTT8RTT9",
+  "RTT9RTT10",
+  "RATF1RATF2",
+  "RATF2RATF3",
+  "RATF4RATF5",
+  "RATF5RATF6",
+  "RATF7RATF8",
+  "RATF8RATF9",
+  "RMTF1RMTF2",
+  "RMTF2RMTF3",
+  "RMTF3RMTF4",
+  "RMTF4RMTF5",
+  "RMTF6RMTF7",
+  "RMTF7RMTF8",
+  "RMTF8RMTF9",
+  "RAMYG1RAMYG2",
+  "RAMYG2RAMYG3",
+  "RAMYG3RAMYG4",
+  "RAMYG4RAMYG5",
+  "RAMYG5RAMYG6",
+  "RAMYG10RAMYG11",
+  "RAMYG11RAMYG12",
+  "RAMYG12RAMYG13",
+  "RAMYG13RAMYG14",
+  "RAHIP1RAHIP2",
+  "RAHIP2RAHIP3",
+  "RAHIP3RAHIP4",
+  "RAHIP4RAHIP5",
+  "RAHIP9RAHIP10",
+  "RAHIP10RAHIP11",
+  "RAHIP11RAHIP12",
+  "RAHIP12RAHIP13",
+  "RAHIP13RAHIP14",
+  "RPHIP1RPHIP2",
+  "RPHIP2RPHIP3",
+  "RPHIP3RPHIP4",
+  "RPHIP4RPHIP5",
+  "RPHIP8RPHIP9",
+  "RPHIP9RPHIP10",
+  "RPHIP10RPHIP11",
+  "RPHIP11RPHIP12",
+  "RPHIP12RPHIP13",
+  "RPHIP13RPHIP14",
+  "RPPH1RPPH2",
+  "RPPH2RPPH3",
+  "RPPH3RPPH4",
+  "RPPH6RPPH7",
+  "RPPH7RPPH8",
+  "RPPH11RPPH12",
+  "RPPH12RPPH13",
+  "RPPH13RPPH14"
+ ],
+ "NodeRegions": [
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-fusiform",
+  "ctx-lh-fusiform",
+  "ctx-lh-inferiortemporal",
+  "ctx-lh-inferiortemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-entorhinal",
+  "ctx-lh-entorhinal",
+  "ctx-lh-fusiform",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "Left-Amygdala",
+  "Left-Amygdala",
+  "Left-Amygdala",
+  "Left-Amygdala",
+  "Left-Amygdala",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "ctx-lh-middletemporal",
+  "Left-Hippocampus",
+  "Left-Hippocampus",
+  "Left-Hippocampus",
+  "Left-Hippocampus",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-lh-superiortemporal",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-fusiform",
+  "ctx-rh-fusiform",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-fusiform",
+  "ctx-rh-fusiform",
+  "ctx-rh-fusiform",
+  "ctx-rh-fusiform",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-inferiortemporal",
+  "ctx-rh-inferiortemporal",
+  "Right-Amygdala",
+  "Right-Amygdala",
+  "Right-Amygdala",
+  "Right-Amygdala",
+  "Right-Amygdala",
+  "ctx-rh-middletemporal",
+  "ctx-rh-middletemporal",
+  "ctx-rh-middletemporal",
+  "ctx-rh-middletemporal",
+  "Right-Hippocampus",
+  "Right-Hippocampus",
+  "Right-Hippocampus",
+  "Right-Hippocampus",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "Right-Hippocampus",
+  "Right-Hippocampus",
+  "Right-Hippocampus",
+  "Right-Hippocampus",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-superiortemporal",
+  "ctx-rh-entorhinal",
+  "ctx-rh-entorhinal",
+  "ctx-rh-entorhinal",
+  "ctx-rh-fusiform",
+  "ctx-rh-fusiform",
+  "ctx-rh-middletemporal",
+  "ctx-rh-middletemporal",
+  "ctx-rh-middletemporal"
+ ],
+ "NodeSOZPerSeizure": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0
+ ],
+ "NodeSOZSummed": [
+  3.0,
+  3.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  3.0,
+  3.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  3.0,
+  3.0,
+  0.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  3.0,
+  3.0,
+  3.0,
+  3.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  3.0,
+  3.0,
+  3.0,
+  3.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  2.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  2.0,
+  2.0,
+  2.0
+ ],
+ "NodeResected": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "ArrayLayout": {
+  "PDC_all_windowed": {
+   "matlab_size": [
+    6,
+    1273,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    1273,
+    6
+   ]
+  },
+  "PDC_ictal": {
+   "matlab_size": [
+    6,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    6
+   ]
+  },
+  "PDC_interictal": {
+   "matlab_size": [
+    6,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    6
+   ]
+  },
+  "PDC_interictal_windowed": {
+   "matlab_size": [
+    6,
+    295,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    295,
+    6
+   ]
+  },
+  "PDC_post": {
+   "matlab_size": [
+    6,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    6
+   ]
+  },
+  "PDC_pre": {
+   "matlab_size": [
+    6,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    6
+   ]
+  },
+  "bips_found_logical": {
+   "matlab_size": [
+    94,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    94
+   ]
+  },
+  "dist_mat": {
+   "matlab_size": [
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94
+   ]
+  },
+  "imcoh_all_windowed": {
+   "matlab_size": [
+    6,
+    1273,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    1273,
+    6
+   ]
+  },
+  "imcoh_interictal_windowed": {
+   "matlab_size": [
+    6,
+    295,
+    94,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    94,
+    295,
+    6
+   ]
+  },
+  "pwelch_all_windowed": {
+   "matlab_size": [
+    1273,
+    94,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    94,
+    1273
+   ]
+  },
+  "pwelch_freqs": {
+   "matlab_size": [
+    1,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    1
+   ]
+  },
+  "pwelch_ictal": {
+   "matlab_size": [
+    94,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    94
+   ]
+  },
+  "pwelch_interictal": {
+   "matlab_size": [
+    94,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    94
+   ]
+  },
+  "pwelch_interictal_windowed": {
+   "matlab_size": [
+    295,
+    94,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    94,
+    295
+   ]
+  },
+  "pwelch_post": {
+   "matlab_size": [
+    94,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    94
+   ]
+  },
+  "pwelch_pre": {
+   "matlab_size": [
+    94,
+    150
+   ],
+   "python_h5py_shape": [
+    150,
+    94
+   ]
+  },
+  "pz10s_designations": {
+   "matlab_size": [
+    94,
+    10
+   ],
+   "python_h5py_shape": [
+    10,
+    94
+   ]
+  },
+  "resected_contacts": {
+   "matlab_size": [
+    94,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    94
+   ]
+  },
+  "rms_all_windowed": {
+   "matlab_size": [
+    1273,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    1273
+   ]
+  },
+  "rms_ictal": {
+   "matlab_size": [
+    1,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    1
+   ]
+  },
+  "rms_interictal": {
+   "matlab_size": [
+    1,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    1
+   ]
+  },
+  "rms_interictal_windowed": {
+   "matlab_size": [
+    295,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    295
+   ]
+  },
+  "rms_post": {
+   "matlab_size": [
+    1,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    1
+   ]
+  },
+  "rms_pre": {
+   "matlab_size": [
+    1,
+    94
+   ],
+   "python_h5py_shape": [
+    94,
+    1
+   ]
+  },
+  "soz_per_seizure": {
+   "matlab_size": [
+    94,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    94
+   ]
+  },
+  "soz_summed": {
+   "matlab_size": [
+    94,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    94
+   ]
+  },
+  "timeseries2pdc_idx": {
+   "matlab_size": [
+    94,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    94
+   ]
+  },
+  "window_end_state": {
+   "matlab_size": [
+    1273,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    1273
+   ]
+  },
+  "window_middle_state": {
+   "matlab_size": [
+    1273,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    1273
+   ]
+  },
+  "window_start_state": {
+   "matlab_size": [
+    1273,
+    1
+   ],
+   "python_h5py_shape": [
+    1,
+    1273
+   ]
+  }
+ },
+ "ArrayLayoutNote": "matlab_size is the size seen in MATLAB; h5py/Python sees the reversed order. Arrays *_windowed have one window per position along the window axis; the band axis follows the rows of the field 'bands' (Hz). Node axes follow NodeLabels (bipolar pairs). Which node axis is the source and which the target is not stated in the release (the code link in the release readme returned HTTP 404 when checked in October 2026).",
+ "MethodsFromPaper": "Makhoul et al. 2025: bipolar re-referencing; 1-59, 61-119 and 121-159 Hz band-pass, fifth-order Butterworth, filtfilt; PDC on 5 s of data from all grey-matter SEEG channels with a 1 s stride; 10 min before seizure onset, the ictal period and 10 min after offset; SOZ / PZ / NIZ designated per seizure by epileptologists."
+}

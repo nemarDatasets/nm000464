@@ -1,0 +1,27 @@
+{
+ "participant_id": {
+  "Description": "release patient code (Pennsieve folder name); codes are the authors' pseudonyms"
+ },
+ "sex": {
+  "Description": "not stated per patient in the release or the paper (paper Table 1, cohort level: 43 of 75 female, 57.3%)"
+ },
+ "age": {
+  "Description": "not stated per patient in the release or the paper (paper Table 1, cohort level: 34.7 +/- 12.3 years)",
+  "Units": "year"
+ },
+ "n_seizure_events": {
+  "Description": "number of distinct seizure events with a .mat file"
+ },
+ "seizure_types": {
+  "Description": "seizure type (field sz_type) : number of events"
+ },
+ "surgery_type": {
+  "Description": "field surgery_type of the files, as written by the authors (e.g. 'R SAH', 'L TL', 'unknown'); several values joined by ' | '"
+ },
+ "soz_strings": {
+  "Description": "distinct values of the field raw_soz_string over the patient's seizures (authors' SOZ contacts), joined by ' | '"
+ },
+ "n_nodes": {
+  "Description": "number of bipolar nodes in the files (range when it differs between seizures)"
+ }
+}

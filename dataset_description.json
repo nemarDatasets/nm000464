@@ -1,0 +1,42 @@
+{
+ "Name": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
+ "BIDSVersion": "1.10.0",
+ "DatasetType": "derivative",
+ "License": "CC-BY-NC-SA-4.0",
+ "Authors": [
+  "Ghassan Makhoul",
+  "Kate Wang",
+  "Dario Englot"
+ ],
+ "HowToAcknowledge": "Please cite Makhoul, G. S., Doss, D. J., Johnson, G. W., Withers, C. P., Cavender, A. C., Hidalgo Monroy Lerma, B., Reda, A., Bibro, C. E., Liao, E., Kang, H., Dawant, B. M., Reddy, S. B., Crudele, A. N., Constantinidis, C., Roberson, S. W., Bick, S. K., Morgan, V. L., & Englot, D. J. (2025). Collapse of interictal suppressive networks permits seizure spread. Brain, awaf215. https://doi.org/10.1093/brain/awaf215 and the dataset doi:10.26275/n0bo-jg77.",
+ "Funding": [
+  "This work was supported by the following funding sources: NINDS R01NS112252, R01NS134625, F31NS131056 and F31NS120401, NIGMS T32GM007347, NIBIB T32EB021937, NINDS R01NS108445 and R01NS110130."
+ ],
+ "EthicsApprovals": [
+  "This study was approved by Vanderbilt’s Institutional Review Board, and all patients provided informed consent."
+ ],
+ "ReferencesAndLinks": [
+  "https://doi.org/10.1093/brain/awaf215",
+  "https://doi.org/10.26275/n0bo-jg77",
+  "https://discover.pennsieve.io/datasets/467/version/1",
+  "https://github.com/GhassanMakhoul/Ephys/tree/V2.5.ISH"
+ ],
+ "GeneratedBy": [
+  {
+   "Name": "Makhoul et al. 2025 peri-ictal connectivity pipeline (data authors)",
+   "CodeURL": "https://github.com/GhassanMakhoul/Ephys/tree/V2.5.ISH",
+   "Description": "Per-seizure partial directed coherence and imaginary coherence of bipolar SEEG nodes in sliding windows, with per-seizure SOZ/PZ labels (Pennsieve 467 readme; Makhoul et al. 2025)."
+  },
+  {
+   "Name": "NEMAR repackaging (b3p467_build.py)",
+   "Description": "Release files renamed into BIDS subject folders; absolute dates in file contents set to day 01; JSON sidecars, seizures.tsv and participants.tsv written from the files' own fields."
+  }
+ ],
+ "SourceDatasets": [
+  {
+   "DOI": "doi:10.26275/n0bo-jg77",
+   "URL": "https://discover.pennsieve.io/datasets/467/version/1",
+   "Version": "1"
+  }
+ ]
+}
