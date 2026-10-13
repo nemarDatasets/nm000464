@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
+  "description": "A derivative BIDS-iEEG dataset of per-seizure connectivity results computed from stereo-EEG (SEEG) recordings of patients with drug-resistant epilepsy evaluated at Vanderbilt University Medical Center. It contains partial directed coherence and imaginary coherence across six frequency bands, computed in sliding windows for peri-ictal and interictal periods. Seizure-onset and propagation zone labels accompany each seizure. The files support analysis of interictal suppressive networks and seizure spread.",
+  "methods_description": "SEEG channels were re-referenced to a bipolar montage and bandpass filtered with fifth-order Butterworth filters. Partial directed coherence was computed from 5 s windows of grey-matter channels with a 1 s stride across six frequency bands (delta through high gamma). For each seizure, 10 min before onset, the ictal period and 10 min after offset were analyzed, together with an interictal clip.",
+  "license": "CC-BY-NC-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Ghassan Makhoul": {},
     "Kate Wang": {
@@ -8,6 +13,35 @@
     },
     "Dario Englot": {}
   },
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Drug Resistant Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "partial directed coherence"
+    },
+    {
+      "term": "imaginary coherence"
+    },
+    {
+      "term": "effective connectivity"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.26275/n0bo-jg77",
@@ -64,14 +98,11 @@
       "award_number": "R01NS110130"
     }
   ],
-  "title": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
-  "license": "CC-BY-NC-SA-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "833 GB (1285 files)"
   ],
@@ -83,38 +114,8 @@
     ".mat",
     ".md",
     ".png",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A derivative BIDS-iEEG dataset of per-seizure connectivity results computed from stereo-EEG recordings of patients with drug-resistant epilepsy evaluated at Vanderbilt University Medical Center. It provides windowed partial directed coherence and imaginary coherence across six frequency bands for peri-ictal and interictal periods, with seizure onset zone and propagation zone labels. The data accompany a study of how the collapse of interictal suppressive networks permits seizure spread.",
-  "methods_description": "SEEG channels were re-referenced to a bipolar montage and bandpass filtered. Partial directed coherence was computed on 5 s windows from grey-matter channels in six frequency bands (delta through high gamma, up to 150 Hz), using a 1 s stride. For each seizure, 10 min before onset, the ictal period, and 10 min after offset were analyzed, along with an interictal clip.",
-  "keywords": [
-    {
-      "term": "Stereo-EEG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Drug Resistant Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
-    },
-    {
-      "term": "Seizures",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
-    },
-    {
-      "term": "partial directed coherence"
-    },
-    {
-      "term": "effective connectivity"
-    }
-  ],
-  "source_hash": "ec955d99b633fc614ac46aa246056c75295944d881bef7c292094e6b3e4aef4d"
+  "source_hash": "c31ed9b49baa15efd9e1850ba22ec2f0d9883685705cdf232dcc3cf7dcb67cee"
 }
