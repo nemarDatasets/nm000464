@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
-  "description": "This derivative BIDS-iEEG dataset provides per-seizure partial directed coherence and imaginary coherence computed from stereo-EEG recordings of patients with drug-resistant epilepsy evaluated at Vanderbilt University Medical Center. It contains connectivity matrices for peri-ictal and interictal periods across six frequency bands, with seizure-onset and propagation zone labels. The data support analysis of interictal suppressive network collapse and seizure spread. No raw SEEG is included.",
-  "methods_description": "SEEG channels were re-referenced to a bipolar montage and band-pass filtered. Partial directed coherence was computed from 5 s windows of grey-matter channels with a 1 s stride across six frequency bands (delta through high gamma). For each seizure, 10 min before onset, the ictal period, and 10 min after offset were analyzed, along with an interictal clip.",
+  "description": "This derivative BIDS-iEEG dataset provides per-seizure directed and undirected connectivity estimates, namely partial directed coherence and imaginary coherence, computed from stereo-EEG recordings of patients with drug-resistant epilepsy at Vanderbilt University Medical Center. Connectivity is computed in sliding windows across pre-ictal, ictal, post-ictal and interictal periods, with seizure onset zone and propagation zone labels for each seizure. It supports analysis of peri-ictal network dynamics and the breakdown of interictal suppressive networks during seizure spread.",
+  "methods_description": "SEEG channels were bipolar re-referenced and band-pass filtered. Partial directed coherence was computed from 5 s windows of grey-matter channels with a 1 s stride across six frequency bands (delta through high gamma, up to 150 Hz). For each seizure, 10 min before onset, the full ictal period and 10 min after offset were analysed, along with an interictal clip.",
   "license": "CC-BY-NC-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,7 +15,7 @@
   },
   "keywords": [
     {
-      "term": "stereo-EEG"
+      "term": "SEEG"
     },
     {
       "term": "intracranial EEG"
@@ -23,6 +23,7 @@
     {
       "term": "Drug Resistant Epilepsy",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
     },
     {
@@ -34,7 +35,7 @@
       "term": "partial directed coherence"
     },
     {
-      "term": "effective connectivity"
+      "term": "functional connectivity"
     },
     {
       "term": "peri-ictal dynamics"
