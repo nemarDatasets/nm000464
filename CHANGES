@@ -1,2 +1,5 @@
+1.0.2 2026-10-16
+  - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
+
 1.0.0 2026-10-01
   - NEMAR release of Pennsieve Discover dataset 467 version 1 (doi:10.26275/n0bo-jg77) as a derivative BIDS dataset.

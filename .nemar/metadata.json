@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Makhoul-2025-collapse-10.1093/brain/awaf215",
+  "title": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
   "description": "This derivative BIDS-iEEG dataset provides per-seizure partial directed coherence and imaginary coherence computed from stereo-EEG recordings of patients with drug-resistant epilepsy evaluated at Vanderbilt University Medical Center. It contains connectivity matrices for peri-ictal and interictal periods across six frequency bands, with seizure-onset and propagation zone labels. The data support analysis of interictal suppressive network collapse and seizure spread. No raw SEEG is included.",
   "methods_description": "SEEG channels were re-referenced to a bipolar montage and band-pass filtered. Partial directed coherence was computed from 5 s windows of grey-matter channels with a 1 s stride across six frequency bands (delta through high gamma). For each seizure, 10 min before onset, the ictal period, and 10 min after offset were analyzed, along with an interictal clip.",
   "license": "CC-BY-NC-SA-4.0",
@@ -115,5 +115,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "d28e0a9b0b0d71a4884c82d148c6acb0095e0faae2a2a5aad5804af61c49173b"
+  "source_hash": "3030b92a4001ceffadc9b5460db1722a7b3df6f158411d496c765e22ce34acdd"
 }

@@ -1,5 +1,5 @@
 {
-  "Name": "Makhoul-2025-collapse-10.1093/brain/awaf215",
+  "Name": "Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-NC-SA-4.0",
@@ -40,5 +40,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000464",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
